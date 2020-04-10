@@ -1,0 +1,23 @@
+CS520 - HW2 - debugging
+Tianyang Zhou
+30803195
+
+1.        
+	Bug#1
+	Link *p, *t, *y, *z; in mysort.c line 80
+	
+	Bug#2
+     	if (y->data >= z->data) in mysort.c line 89
+
+2.
+	Bug#1
+	just defined 4 variable, so this function only can sort 4 position 
+	
+	Bug#2
+	if we want to sort number, the weight of each position can't be equal 
+3.
+	Bug#1
+	just define more Link variable, like *x
+
+	Bug#2
+	just delete '=', like if (y->data > z->data)
